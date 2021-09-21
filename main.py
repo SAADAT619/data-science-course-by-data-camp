@@ -98,3 +98,27 @@ cars.index = row_labels
 print(cars)
 
 #-----------------------------------------
+
+#how to import csv file in pandas
+# Import pandas as pd
+import pandas as pd
+
+# Import the cars.csv data: cars
+cars=pd.read_csv('cars.csv')
+
+# Print out cars
+print(cars)
+
+#-----------------------------------------
+
+#How to import csv file at the same time change the first column label
+
+# Import pandas as pd
+import pandas as pd
+
+# Fix import by including index_col
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Print out cars
+print(cars)
+#--------------------------------------
