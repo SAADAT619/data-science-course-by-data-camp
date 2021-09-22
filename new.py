@@ -45,6 +45,19 @@ print(cars.iloc[:,[2]])
 
 # Print out cars_per_cap and drives_right as DataFrame
 print(cars.loc[:,['cars_per_cap','drives_right']])
+-------------------------------------------
+#less than and greater than
 
+# Comparison of integers
+x = -3 * 6
+print(x>=-10)
+
+# Comparison of strings
+y = "test"
+print("test"<=y)
+
+# Comparison of booleans
+print(True>False)
+-------------------------------------------
 
 """
