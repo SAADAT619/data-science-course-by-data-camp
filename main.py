@@ -2,23 +2,24 @@
 
 #add item in the dictionary
 # Definition of dictionary
-europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin', 'norway':'oslo' }
+#europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin', 'norway':'oslo' }
 
 # Add italy to europe
-europe['italy'] = 'rome'
+#europe['italy'] = 'rome'
 
 # Print out italy in europe
-print('italy' in europe)
+#print('italy' in europe)
 
 # Add poland to europe
-europe['poland'] = 'warsaw'
+#europe['poland'] = 'warsaw'
 
 # Print europe
-print(europe)
+#print(europe)
 #----------------------------
 
 #distionary update and delete item
 # Definition of dictionary
+"""
 europe = {'spain':'madrid', 'france':'paris', 'germany':'bonn',
           'norway':'oslo', 'italy':'rome', 'poland':'warsaw',
           'australia':'vienna' }
@@ -150,3 +151,4 @@ print(cars[0:3])
 # Print out fourth, fifth and sixth observation
 print(cars[3:6])
 #-----------------------------------------
+"""
