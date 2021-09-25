@@ -67,4 +67,20 @@ europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
 # Iterate over europe
 for key,value in europe.items():
     print("the capital of "+key+" is "+str(value))
+----------------------------------------
+#sue of nditer
+# Import numpy as np
+import numpy as np
+
+# For loop over np_height
+for height in np.nditer(np_height):
+    print(str(height)+" inches")
+
+# For loop over np_baseball
+for baseball in np.nditer(np_baseball):
+    print(baseball)
+------------------------------------------
+
+
+
 """
