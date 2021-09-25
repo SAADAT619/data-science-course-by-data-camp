@@ -80,7 +80,16 @@ for height in np.nditer(np_height):
 for baseball in np.nditer(np_baseball):
     print(baseball)
 ------------------------------------------
+# iterate the rows
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
 
+# Iterate over rows of cars
+for label,content in cars.iterrows():
+    print(label)
+    print(content)
+------------------------------------------
 
 
 """
