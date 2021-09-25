@@ -22,4 +22,5 @@ sel = cars[dr]
 
 # Print sel
 print(sel)
+print(sel)
 """
