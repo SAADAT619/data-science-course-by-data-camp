@@ -78,5 +78,19 @@ print(homelessness.shape)
 
 # Print a description of homelessness
 print(homelessness.describe())
--------------------------------------------
+----------------------------------------
+#Some other meathods
+
+# Import pandas using the alias pd
+import pandas as pd
+
+# Print the values of homelessness
+print(homelessness.values)
+
+# Print the column index of homelessness
+print(homelessness.columns)
+
+# Print the row index of homelessness
+print(homelessness.index)
+---------------------------------------
 """
